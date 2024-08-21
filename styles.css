@@ -1,0 +1,208 @@
+.imagen1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+
+
+
+
+
+nav {
+    z-index: 15;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+nav li a {
+    background-color: rgb(191, 200, 190);
+    color: #7f0808;
+    text-decoration: none;
+    padding: 20px 25px;
+    display: block;
+
+}
+
+nav li a:hover {
+    background-color: #f1df58;
+    
+}
+
+nav > li {
+   float: lef;
+}
+
+nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    
+}
+
+nav li:hover > ul {
+    display:block;
+}
+
+nav li ul li {
+    position: relative;
+}
+
+nav li ul li ul {
+    right: 140px;
+    top: 0px;
+}
+
+
+
+nav ul li a {
+    
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    
+    margin: 0%;
+    background-color:  #eee7e9;
+}
+
+
+
+
+    
+      
+.slide {
+    margin-top: 10px;
+    margin: 0%;
+}
+
+.slide img {
+    height: 75vh ;
+    
+}
+
+.card img { 
+    
+    height: 40vh ;
+    margin: 0%;
+    
+
+}
+
+
+
+
+.card {
+    
+    transition: all 400ms ease;
+    cursor: default;
+    overflow: hidden;
+    padding: 0px;
+    border-radius: 20px;
+    margin-top: 0px;
+    height: 75vh ;
+    box-shadow: red
+    
+    
+ 
+ }
+
+ .card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-5%);
+    
+}
+
+
+ .card button {
+    
+    border-radius: 20px;
+    width: 150px;
+    float: right;
+    background-color: red;
+    text-align: below;
+    
+    
+}
+
+ .btn-danger {
+    border-radius: 50px;
+    width: 120px;
+}
+
+.btn-danger:hover{
+        background-color: rgb(14, 13, 79);
+        border: none;
+        
+
+}
+   
+
+ 
+ .card-img-top {
+    border-radius: 30px;
+    padding: 20px;
+    
+
+ }
+ .card body {
+    padding: 25px;
+    margin-top: 20px;
+    
+ }
+
+
+ .card h5 {
+    color: rgb(185, 160, 16);
+    
+ }
+ .card-text {
+    color: rgb(39, 225, 107);
+
+ }
+ 
+.container-fluid {
+  
+color: blue;
+font-family: 'Times New Roman', Times, serif;  
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
